@@ -1,0 +1,52 @@
+.modal__container {
+  border: 1px solid #ff6f00;
+  border-radius: 8px;
+  box-shadow: 50px 50px 100px #0f1416, -50px -50px 100px #3d505a, -50px 50px 100px #0f1416, 50px -50px 100px #3d505a, 50px -50px 100px #0f1416, -50px 50px 100px #3d505a, -50px -50px 100px #0f1416, 50px 50px 100px #3d505a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 150px;
+  z-index: 10;
+  background-color: #263238;
+  height: 350px;
+  width: 300px;
+}
+.modal__container:focus {
+  outline: #ff6f00d8 outset 300px;
+}
+.modal__container a {
+  margin-left: 16px;
+  width: 100%;
+}
+.modal__container .modal__container--button {
+  display: block;
+  font-size: larger;
+  font-weight: bolder;
+  height: 36px;
+  width: 95%;
+  border: 1px solid #ff6f00;
+  border-radius: 4px;
+  background-color: #263238;
+  box-shadow: -4px 4px 7px #0f1416, 4px -4px 7px #3d505a;
+  color: #ff6f00;
+}
+.modal__container .modal__container--button:hover {
+  outline: #ff6f00d8 outset 3px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.modal__container .modal__container--button:active {
+  border-radius: 4px;
+  background: #263238;
+  box-shadow: inset -4px 4px 7px #0f1416, inset 4px -4px 7px #3d505a;
+}
+.modal__container .modal__container--button:focus {
+  outline: #ff6f00d8 outset 3px;
+  color: #ff6f00d8;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=Modal.css.map */

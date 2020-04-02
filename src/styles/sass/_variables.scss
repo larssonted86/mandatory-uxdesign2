@@ -1,0 +1,10 @@
+$color-background: #263238;
+$color-text: #ff6f00;
+$color-outline: #ff6f00d8;
+$border-radius: 8px;
+$box-shadow-inactive: -4px 4px 7px #0f1416, 4px -4px 7px #3d505a;
+$box-shadow-active: inset -4px 4px 7px #0f1416, inset 4px -4px 7px #3d505a;
+
+$box-shadow-modal: 50px 50px 100px #0f1416, -50px -50px 100px #3d505a,
+  -50px 50px 100px #0f1416, 50px -50px 100px #3d505a, 50px -50px 100px #0f1416,
+  -50px 50px 100px #3d505a, -50px -50px 100px #0f1416, 50px 50px 100px #3d505a;
