@@ -40,10 +40,20 @@
         width: 1px;
         height: 1px;
 
+        &:focus {
+          outline: none;
+        }
+
         &:checked + label {
           color: variables.$color-background;
           background: variables.$color-text;
           box-shadow: variables.$box-shadow-active;
+        }
+
+        &focus + label {
+          border: 1px solid variables.$color-background;
+          background-color: variables.$color-text;
+          color: variables.$color-background;
         }
       }
 

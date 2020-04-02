@@ -37,10 +37,18 @@
   width: 1px;
   height: 1px;
 }
+.card__container .card__container--bottom .card__container--bottom--coice .radio__button:focus {
+  outline: none;
+}
 .card__container .card__container--bottom .card__container--bottom--coice .radio__button:checked + label {
   color: #263238;
   background: #ff6f00;
   box-shadow: inset -4px 4px 7px #0f1416, inset 4px -4px 7px #3d505a;
+}
+.card__container .card__container--bottom .card__container--bottom--coice .radio__buttonfocus + label {
+  border: 1px solid #263238;
+  background-color: #ff6f00;
+  color: #263238;
 }
 .card__container .card__container--bottom .card__container--bottom--coice label {
   padding: 5px;
