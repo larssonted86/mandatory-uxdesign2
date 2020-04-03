@@ -54,7 +54,8 @@ export class Quizscreen extends Component {
 
   closeModal = () => {
     this.setState({
-      results: null
+      modal: false,
+      result: null
     });
     this.getQuiz();
   };
@@ -109,9 +110,11 @@ export class Quizscreen extends Component {
           <Cards quizData={this.state.quizData} />
           <button className='form--submitbutton'>END QUIZ</button>
         </form>
-        {this.state.results ? (
+        {this.state.modal ? (
           <Modal results={this.state.results} onClick={this.closeModal} />
-        ) : null}
+        ) : (
+          false
+        )}
       </div>
     );
   }
